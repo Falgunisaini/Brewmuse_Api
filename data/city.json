@@ -1,0 +1,26 @@
+[
+    {
+        "city_id":1,
+        "city_name":"Delhi"
+    },
+    {
+        "city_id":2,
+        "city_name":"Mumbai"
+    },
+    {
+        "city_id":3,
+        "city_name":"Kolkata"
+    },
+    {
+        "city_id":4,
+        "city_name":"Chennai"
+    },
+    {
+        "city_id":5,
+        "city_name":"Hyderabad"
+    },
+    {
+        "city_id":6,
+        "city_name":"Pune"
+    }
+]

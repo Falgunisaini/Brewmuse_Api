@@ -1,0 +1,218 @@
+[
+    {
+        "city_id":1,
+        "city_name":"Delhi",
+        "id":11,
+        "profile":"Assistant Manager-Partner Resources",
+        "job_description":"Assist in development, implementation, administration and operation of high quality partner resources programs, practices and procedures across all levels of partners. Support integration of complex business factors to build business capability, develop leaders, drive succession planning and business change efforts.",
+        "Eligibility":"Work Experience of atleast 2-3 years in HR-Business Partnering roles",
+        "location":"Central & West Delhi, Delhi,IN"
+    },
+    {
+        "city_id":1,
+        "city_name":"Delhi",
+        "id":12,
+        "profile":"Store Manager",
+        "job_description":"Leading the store operations & the team of store partners to create and maintain the Starbucks experience for our customers and partners. The main areas of work of a store manager involves reaching sales targets and increasing profits, dealing with customer service issues, staff management, safety and security issues. ",
+        "Eligibility":"Minimum 12th pass, Latte Art Expert, In-Depth Knowledge of Coffee",
+        "location":"South Delhi, Delhi,IN"
+    },
+    {
+        "city_id":1,
+        "city_name":"Delhi",
+        "id":13,
+        "profile":"Apprentice",
+        "job_description":"Providing legendary customer service to all customers. Creating the Starbucks Experience for our customers by providing customers with prompt service, quality beverages and products, and maintaining a clean and comfortable store environment.",
+        "Eligibility":"Students pursuing 11th or Secondary / 10th pass level, Minimum 16 years of age",
+        "location":"Namaste Midway, Mansurpur, Delhi, IN"
+    },
+    {
+        "city_id":1,
+        "city_name":"Delhi",
+        "id":14,
+        "profile":"Shift Supervisor",
+        "job_description":"Assisting the store manager in executing store operations during scheduled shifts. This job deploys partners and delegates tasks so that partners can create and maintain the Starbucks Experience for our customers. Also, creating a positive learning environment by providing clear, specific, timely and respectful coaching and feedback to partners on shift to ensure operational excellence and to improve partner performance.",
+        "Eligibility":"Minimum education qualification: 12th pass OR Diploma + and atleast 1 year of experience of handling a team in a retail setup.",
+        "location":"North Delhi, Delhi, IN"
+    },
+    {
+        "city_id":1,
+        "city_name":"Delhi",
+        "id":15,
+        "profile":"Barista",
+        "job_description":"Provides quality beverages, whole bean, and food products consistently for all customers by adhering to all recipes and presentation standards. Follows health, safety and sanitation guidelines for all products. Recognizes and reinforces individual and team accomplishments by using existing organizational methods.",
+        "Eligibility":"Minimum education qualification: 12th OR Diploma +.",
+        "location":"North Delhi, Delhi, IN"
+    },
+    {
+        "city_id":2,
+        "city_name":"Mumbai",
+        "id":21,
+        "profile":"Manager - Marketing",
+        "job_description":"Accelerate growth and profitability including product innovation, managing all global merchandise launches for India and developing peer connections and independent equations within key functions",
+        "Eligibility":"Candidates from reputed institues with 7-8 years of relevant experince in Merchandise.",
+        "location":"Airport Stores, Mumbai, IN"
+    },
+    {
+        "city_id":2,
+        "city_name":"Mumbai",
+        "id":22,
+        "profile":"Executive - Loyalty",
+        "job_description":"Support in execution of annual Loyalty & CRM calendar. Co-ordinate with all front and back-end systems and vendors for all promotional updates on timely basis with cross functional stakeholders internally and externally including Mobile App & Website. Moreover, Co-ordinate with agencies & all in-store and digital creative campaign implementation related to CRM and Loyalty.",
+        "Eligibility":"Candidate must have a MBA degree. Overall experience 2-4 years (preferable in Loyalty Marketing for at least 1 year)",
+        "location":"Malad-Goregaon, Mumbai, IN"
+    },
+    {
+        "city_id":2,
+        "city_name":"Mumbai",
+        "id":23,
+        "profile":"Shift Supervisor",
+        "job_description":"Assisting the store manager in executing store operations during scheduled shifts. This job deploys partners and delegates tasks so that partners can create and maintain the Starbucks Experience for our customers. Also, creating a positive learning environment by providing clear, specific, timely and respectful coaching and feedback to partners on shift to ensure operational excellence and to improve partner performance.",
+        "Eligibility":"Minimum education qualification: 12th pass OR Diploma + and atleast 1 year of experience of handling a team in a retail setup.",
+        "location":"Juhu-Bandra, Mumbai, IN"
+    },
+    {
+        "city_id":2,
+        "city_name":"Mumbai",
+        "id":24,
+        "profile":"Barista",
+        "job_description":"Provides quality beverages, whole bean, and food products consistently for all customers by adhering to all recipes and presentation standards. Follows health, safety and sanitation guidelines for all products. Recognizes and reinforces individual and team accomplishments by using existing organizational methods.",
+        "Eligibility":"Minimum education qualification: 12th OR Diploma +.",
+        "location":"South Mumbai, Mumbai, IN"
+    },
+    {
+        "city_id":2,
+        "city_name":"Mumbai",
+        "id":25,
+        "profile":"Associate Director-Digital Customer Experience",
+        "job_description":"Lead the digital customer experience team with functional ownership of mobile app, loyalty program, digital wallet, e-gifting, e-commerce for both owned and third-party channels. Partner with technology team to co-own the digital roadmap, ensure the roadmap, and action plans are in place and executed with relevant contribution from other teams across the organization.",
+        "Eligibility":"MBA from a renowned institute, good understanding of or flair for technology, digital industry, consumer digital trends, Overall experience 10-15 years.",
+        "location":"Central Mumbai, Mumbai, IN"
+    },
+    {
+        "city_id":2,
+        "city_name":"Mumbai",
+        "id":26,
+        "profile":"Apprentice",
+        "job_description":"Providing legendary customer service to all customers. Creating the Starbucks Experience for our customers by providing customers with prompt service, quality beverages and products, and maintaining a clean and comfortable store environment.",
+        "Eligibility":"Students pursuing 11th or Secondary / 10th pass level, Minimum 16 years of age",
+        "location":"Borivali-Kandivali, Mumbai, IN"
+    },
+    {
+        "city_id":3,
+        "city_name":"Kolkata",
+        "id":31,
+        "profile":"Store Manager",
+        "job_description":"Leading the store operations & the team of store partners to create and maintain the Starbucks experience for our customers and partners. The main areas of work of a store manager involves reaching sales targets and increasing profits, dealing with customer service issues, staff management, safety and security issues. ",
+        "Eligibility":"Minimum 12th pass, Latte Art Expert, In-Depth Knowledge of Coffee",
+        "location":"Kolkata, IN"
+    },
+    {
+        "city_id":3,
+        "city_name":"Kolkata",
+        "id":32,
+        "profile":"Apprentice",
+        "job_description":"Providing legendary customer service to all customers. Creating the Starbucks Experience for our customers by providing customers with prompt service, quality beverages and products, and maintaining a clean and comfortable store environment.",
+        "Eligibility":"Students pursuing 11th or Secondary / 10th pass level, Minimum 16 years of age",
+        "location":"Kolkata, IN"
+    },
+    {
+        "city_id":3,
+        "city_name":"Kolkata",
+        "id":33,
+        "profile":"Shift Supervisor",
+        "job_description":"Assisting the store manager in executing store operations during scheduled shifts. This job deploys partners and delegates tasks so that partners can create and maintain the Starbucks Experience for our customers. Also, creating a positive learning environment by providing clear, specific, timely and respectful coaching and feedback to partners on shift to ensure operational excellence and to improve partner performance.",
+        "Eligibility":"Minimum education qualification: 12th pass OR Diploma + and atleast 1 year of experience of handling a team in a retail setup.",
+        "location":"Kolkata, IN"
+    },
+    {
+        "city_id":4,
+        "city_name":"Chennai",
+        "id":41,
+        "profile":"Apprentice",
+        "job_description":"Providing legendary customer service to all customers. Creating the Starbucks Experience for our customers by providing customers with prompt service, quality beverages and products, and maintaining a clean and comfortable store environment.",
+        "Eligibility":"Students pursuing 11th or Secondary / 10th pass level, Minimum 16 years of age",
+        "location":"Nuggambakan, Chennai, IN"
+    },
+    {
+        "city_id":4,
+        "city_name":"Chennai",
+        "id":42,
+        "profile":"Shift Supervisor",
+        "job_description":"Assisting the store manager in executing store operations during scheduled shifts. This job deploys partners and delegates tasks so that partners can create and maintain the Starbucks Experience for our customers. Also, creating a positive learning environment by providing clear, specific, timely and respectful coaching and feedback to partners on shift to ensure operational excellence and to improve partner performance.",
+        "Eligibility":"Minimum education qualification: 12th pass OR Diploma + and atleast 1 year of experience of handling a team in a retail setup.",
+        "location":"Velachery, Chennai, IN"
+    },
+    {
+        "city_id":4,
+        "city_name":"Chennai",
+        "id":43,
+        "profile":"Barista",
+        "job_description":"Provides quality beverages, whole bean, and food products consistently for all customers by adhering to all recipes and presentation standards. Follows health, safety and sanitation guidelines for all products. Recognizes and reinforces individual and team accomplishments by using existing organizational methods.",
+        "Eligibility":"Minimum education qualification: 12th OR Diploma +.",
+        "location":"Annanagar, Chennai, IN"
+    },
+    {
+        "city_id":5,
+        "city_name":"Hyderabad",
+        "id":51,
+        "profile":"Shift Supervisor",
+        "job_description":"Assisting the store manager in executing store operations during scheduled shifts. This job deploys partners and delegates tasks so that partners can create and maintain the Starbucks Experience for our customers. Also, creating a positive learning environment by providing clear, specific, timely and respectful coaching and feedback to partners on shift to ensure operational excellence and to improve partner performance.",
+        "Eligibility":"Minimum education qualification: 12th pass OR Diploma + and atleast 1 year of experience of handling a team in a retail setup.",
+        "location":"Jubilee Hills, Hyderabad, IN"
+    },
+    {
+        "city_id":5,
+        "city_name":"Hyderabad",
+        "id":52,
+        "profile":"Barista",
+        "job_description":"Provides quality beverages, whole bean, and food products consistently for all customers by adhering to all recipes and presentation standards. Follows health, safety and sanitation guidelines for all products. Recognizes and reinforces individual and team accomplishments by using existing organizational methods.",
+        "Eligibility":"Minimum education qualification: 12th OR Diploma +.",
+        "location":"Hitech City, Hyderabad, IN"
+    },
+    {
+        "city_id":5,
+        "city_name":"Hyderabad",
+        "id":53,
+        "profile":"Apprentice",
+        "job_description":"Providing legendary customer service to all customers. Creating the Starbucks Experience for our customers by providing customers with prompt service, quality beverages and products, and maintaining a clean and comfortable store environment.",
+        "Eligibility":"Students pursuing 11th or Secondary / 10th pass level, Minimum 16 years of age",
+        "location":"Shamshabad Airport, Hyderabad, IN"
+    },
+    {
+        "city_id":6,
+        "city_name":"Pune",
+        "id":61,
+        "profile":"Store Manager",
+        "job_description":"Leading the store operations & the team of store partners to create and maintain the Starbucks experience for our customers and partners. The main areas of work of a store manager involves reaching sales targets and increasing profits, dealing with customer service issues, staff management, safety and security issues. ",
+        "Eligibility":"Minimum 12th pass, Latte Art Expert, In-Depth Knowledge of Coffee",
+        "location":"Pune, IN"
+    },
+    {
+        "city_id":6,
+        "city_name":"Pune",
+        "id":62,
+        "profile":"Apprentice",
+        "job_description":"Providing legendary customer service to all customers. Creating the Starbucks Experience for our customers by providing customers with prompt service, quality beverages and products, and maintaining a clean and comfortable store environment.",
+        "Eligibility":"Students pursuing 11th or Secondary / 10th pass level, Minimum 16 years of age",
+        "location":"Koregaon Pheonix City, Pune, IN"
+    },
+    {
+        "city_id":6,
+        "city_name":"Pune",
+        "id":63,
+        "profile":"Shift Supervisor",
+        "job_description":"Assisting the store manager in executing store operations during scheduled shifts. This job deploys partners and delegates tasks so that partners can create and maintain the Starbucks Experience for our customers. Also, creating a positive learning environment by providing clear, specific, timely and respectful coaching and feedback to partners on shift to ensure operational excellence and to improve partner performance.",
+        "Eligibility":"Minimum education qualification: 12th pass OR Diploma + and atleast 1 year of experience of handling a team in a retail setup.",
+        "location":"Pune, IN"
+    },
+    {
+        "city_id":6,
+        "city_name":"Pune",
+        "id":64,
+        "profile":"Barista",
+        "job_description":"Provides quality beverages, whole bean, and food products consistently for all customers by adhering to all recipes and presentation standards. Follows health, safety and sanitation guidelines for all products. Recognizes and reinforces individual and team accomplishments by using existing organizational methods.",
+        "Eligibility":"Minimum education qualification: 12th OR Diploma +.",
+        "location":"Pune, IN"
+    }
+]
