@@ -17,6 +17,16 @@ app.get('/',(req,res)=>{
     res.send('Welcome to BrewMuse');
 })
 
+// Retrieveing sub-category (Food/Drinks)
+app.get('/category/:id',(req,res)=>{
+    let categoryId=Number(req.params.id);
+    
+    db.collection('category').find({"id":categoryId}).toArray((err,result)=>{
+        if(err) console.log(err)
+        res.send(result);
+    })
+})
+
 // Find a Store Api
 app.get('/store',(req,res)=>{
     let city=Number(req.query.city_id);
