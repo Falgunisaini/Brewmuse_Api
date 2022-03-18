@@ -18,10 +18,29 @@ app.get('/',(req,res)=>{
 })
 
 // Retrieveing sub-category (Food/Drinks)
-app.get('/category/:id',(req,res)=>{
-    let categoryId=Number(req.params.id);
+app.get('/category',(req,res)=>{
+    let categoryId=Number(req.query.id);
+    let category_type = req.query.type;
+    let query={};
+
+    if(categoryId && category_type){
+        query={
+            id:categoryId,
+            type:category_type
+        }
+    }
+    else if(categoryId){
+        query={
+            id:categoryId
+        }
+    }
+    else if(category_type){
+        query={
+            type:category_type
+        }
+    }
     
-    db.collection('category').find({"id":categoryId}).toArray((err,result)=>{
+    db.collection('category').find(query).toArray((err,result)=>{
         if(err) console.log(err)
         res.send(result);
     })
