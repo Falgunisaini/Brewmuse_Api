@@ -13,6 +13,8 @@ Data to find a store w.r.t store name (for using in search bar): https://brewmus
 
 Page 2: Menu (Fetches data for coffee as well as food)
 
+Sub-category data: https://brewmuse.herokuapp.com/category/1
+
 Menu data w.r.t category id: https://brewmuse.herokuapp.com/item/1
 
 
