@@ -10,7 +10,7 @@ var db;
 
 app.use(bodyparser.urlencoded({extended:true}))
 app.use(bodyparser.json())
-app.use(cors)
+//app.use(cors)
 
 // Base Route
 app.get('/',(req,res)=>{
