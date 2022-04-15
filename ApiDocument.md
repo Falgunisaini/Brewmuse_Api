@@ -49,11 +49,11 @@ Combinations of coffee for coffee finder: https://brewmuse.herokuapp.com/ourcoff
 Page 5: Starbucks Delivers
 
 Filter
- 1) For Type (veg/Non-Veg): https://brewmuse.herokuapp.com/filter/5?type=Vegetarian
+ 1) For Type (veg/Non-Veg): https://brewmuse.herokuapp.com/filter?type=Vegetarian
 
- 2) For Price: https://brewmuse.herokuapp.com/filter/1?bprice=200&aprice=350
+ 2) For Price: https://brewmuse.herokuapp.com/filter?bprice=200&aprice=350
 
- 3) For Ratings:https://brewmuse.herokuapp.com/filter/5?arate=4   https://brewmuse.herokuapp.com/filter/3?brate=4
+ 3) For Ratings:https://brewmuse.herokuapp.com/filter?arate=4   https://brewmuse.herokuapp.com/filter?brate=4
 
  4) To place order (Post Call): https://brewmuse.herokuapp.com/placeOrder 
 
