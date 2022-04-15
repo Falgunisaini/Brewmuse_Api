@@ -206,30 +206,71 @@ app.delete('/deletegiftOrder',(req,res)=>{
 })
 
 // Filter for Coffee and food
-app.get('/filter/:id',(req,res)=>{
-    let categoryID=Number(req.params.id);
-    console.log(">>>>>categoryID",categoryID);
+// app.get('/filter/:id',(req,res)=>{
+//     let categoryID=Number(req.params.id);
+//     console.log(">>>>>categoryID",categoryID);
+//     let item_type=req.query.type;
+//     let sort = {Ratings:1}
+//     let bprice = Number(req.query.bprice);  
+//     let aprice = Number(req.query.aprice);
+//     let arate=Number(req.query.arate);
+//     let brate=Number(req.query.brate);
+//     let query={}
+//     if(sort){
+//         sort={Ratings:req.query.sort}
+//     }
+//     if(bprice && aprice){
+//         query={$and:[{Price:{$gt:bprice,$lt:aprice}}],category_id:categoryID}
+//     }
+//     else if(arate){
+//         query={Ratings:{$gte:arate},category_id:categoryID}
+//     }
+//     else if(brate){
+//         query={Ratings:{$lte:brate},category_id:categoryID}
+//     }
+//     if(item_type){
+//         query={type:item_type,category_id:categoryID}
+//     }
+       
+    
+//     db.collection('menu').find(query).sort(sort).toArray((err,result)=>{
+//         if(err) throw err;
+//         res.send(result)
+//     })
+// })
+
+app.get('/filter',(req,res)=>{
     let item_type=req.query.type;
     let sort = {Ratings:1}
     let bprice = Number(req.query.bprice);  
     let aprice = Number(req.query.aprice);
-    let arate=Number(req.query.arate);
-    let brate=Number(req.query.brate);
+    let arate= Number(req.query.arate);
+    let brate= Number(req.query.brate);
+    let categoryId = Number(req.query.id);
     let query={}
     if(sort){
         sort={Ratings:req.query.sort}
     }
-    if(bprice && aprice){
-        query={$and:[{Price:{$gt:bprice,$lt:aprice}}],category_id:categoryID}
+    if(categoryId && bprice && aprice && item_type && arate && brate){
+        query={_id:categoryId,$and:[{Price:{$gt:bprice,$lt:aprice}}],type:item_type, Ratings:{$gte:arate}, Ratings:{$lte:brate}}
+    }
+    else if(categoryId && bprice && aprice){
+        query={_id:categoryId,$and:[{Price:{$gt:bprice,$lt:aprice}}]}
+    }
+    else if(categoryId && item_type){
+        query={_id:categoryId,type:item_type}
+    }
+    else if(bprice && aprice){
+        query={$and:[{Price:{$gt:bprice,$lt:aprice}}]}
     }
     else if(arate){
-        query={Ratings:{$gte:arate},category_id:categoryID}
+        query={Ratings:{$gte:arate}}
     }
     else if(brate){
-        query={Ratings:{$lte:brate},category_id:categoryID}
+        query={Ratings:{$lte:brate}}
     }
     if(item_type){
-        query={type:item_type,category_id:categoryID}
+        query={type:item_type}
     }
        
     
